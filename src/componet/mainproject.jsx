@@ -15,7 +15,7 @@ function Mainproject() {
        <Header/>
         <Home/>
        <Content/>
-       <Content2/>
+       
        <Propslist/>
        <About/>
        <Videoparts/>
