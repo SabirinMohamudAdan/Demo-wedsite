@@ -10,6 +10,23 @@ function Events() {
   return (
     <div>
         <Header/>
+
+<div className='bg-pink-300 w-[80%] h-[400px] rounded-md ml-32 mt-10 pt-20 pl-20'>
+  <div className='bg-pink-100 w-[150px] h-[30px] rounded-2xl px-6 pt-1 text-red-500 '>
+    <i class="fa-regular fa-circle-dot mr-2 "></i>Live events</div>
+  <div>
+<h1>Explore our live events, <br></br>talks and free workshops</h1>
+
+<p>Jump into a free workshop on UX design or data<br></br> analytics,
+   attend our students' demo days or join us for<br></br> an interactive
+   info session and find out more about Le<br></br> Wagon.</p>
+  </div>
+</div>
+
+
+
+
+
     <div className='pt-20 pb-20 ml-40'>
       {/* main-div */}
    <div className='flex gap-20 '>

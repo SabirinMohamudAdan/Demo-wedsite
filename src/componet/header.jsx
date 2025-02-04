@@ -6,7 +6,7 @@ const Header = () => {
     flex justify-between px-9 py-3 font-serif  bg-white w-full  ">
         <h1 className="text-5xl font-bold"> 
        <NavLink  to="/">  <i class="fa-solid fa-house text-purple-600"></i> 
-         KaFia</NavLink></h1>
+         Le Wagon</NavLink></h1>
         <ul className="flex ">
             <li className="hover:text-purple-600 hover:bg-gray-300 p-4">
                 Courses <i class="fa-solid fa-chevron-down"></i>  </li>
