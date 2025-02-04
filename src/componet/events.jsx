@@ -4,6 +4,7 @@ import img1 from "../assets/image/e2.webp"
 import img2 from "../assets/image/e3.webp"
 import img3 from "../assets/image/e4.webp"
 import img4 from "../assets/image/e5.webp"
+import img5 from "../assets/image/even1.webp"
 import Footer from './footer'
 import Header from './header'
 function Events() {
@@ -11,15 +12,23 @@ function Events() {
     <div>
         <Header/>
 
-<div className='bg-pink-300 w-[80%] h-[400px] rounded-md ml-32 mt-10 pt-20 pl-20'>
+<div className='bg-pink-200/15 w-[80%] h-[400px] 
+rounded-md ml-32 mt-10 pt-20 pl-20  '>
+  <div className='flex gap-10'>
+    <div>
   <div className='bg-pink-100 w-[150px] h-[30px] rounded-2xl px-6 pt-1 text-red-500 '>
     <i class="fa-regular fa-circle-dot mr-2 "></i>Live events</div>
   <div>
-<h1>Explore our live events, <br></br>talks and free workshops</h1>
+<h1 className='text-5xl font-bold text-black'> Explore our live events, <br></br>talks and free workshops</h1>
 
-<p>Jump into a free workshop on UX design or data<br></br> analytics,
+<p className='text-gray-400 mt-6 text-[17px]'>Jump into a free workshop on UX design or data<br></br> analytics,
    attend our students' demo days or join us for<br></br> an interactive
    info session and find out more about Le<br></br> Wagon.</p>
+  </div>
+  </div>
+  <div>
+    <img src={img5} alt=""  className='w-[350px] h-[250px]  rounded-lg'/>
+  </div>
   </div>
 </div>
 
