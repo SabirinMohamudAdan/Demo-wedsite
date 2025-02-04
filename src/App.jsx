@@ -11,19 +11,7 @@ function App() {
 
   return (
     <>
-    {/* <Header/>
-    <Content/>
-    <Content2/>
- <Propslist/>
-
- <About/>
- <Videoparts/>
- <Slideprops/>
- 
-
- <Footer/>
- 
-<Events/> */}
+  
 
 <Routes>
   <Route path='/' element={<Mainproject/>}/>
